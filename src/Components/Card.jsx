@@ -5,7 +5,7 @@ const Card = ({imgUrl, Title, Year, runtime, plot, actors, genres, display}) => 
     return (
         <>
             <div className="flex w-full p-4  shadow-xl  rounded-lg">
-                <div className="flex flex-col w-[50%] gap-10">
+                <div className="flex flex-col w-[50%] gap-10 justify-between">
                     <div className="flex gap-7">
                         <div className="h-[150px]">
                             <img src={imgUrl} alt="img" className="w-[100px] h-[150px]"/>
